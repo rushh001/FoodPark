@@ -5,6 +5,7 @@ public class user_details {
     String userName;
     String userProfile;
     String userEmail;
+    String userMess;
     public user_details() {
     }
 
