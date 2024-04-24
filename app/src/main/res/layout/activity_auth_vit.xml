@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/auth_back2"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".Auth_Vit">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="240dp"
+        android:layout_marginTop="40dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:layout_marginLeft="120dp"
+
+            android:fontFamily="sans-serif-black"
+            android:text="VIT Food Park"
+            android:textColor="@color/black"
+            android:textSize="40dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:gravity="center_horizontal"
+        >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:text="Welcome"
+        android:textColor="@color/black"
+        android:textSize="40dp" />
+    </LinearLayout>
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/SignUpbtn"
+        android:layout_width="280dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="70dp"
+        android:layout_marginBottom="40dp"
+        android:backgroundTint="@color/white"
+        android:drawableLeft="@drawable/google__1_"
+        android:drawableRight="@drawable/baseline_arrow_right_alt_24"
+        android:drawablePadding="10dp"
+        android:text="Continue"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        app:cornerRadius="23dp"
+        android:shadowColor="@color/black"
+        app:strokeColor="@color/black"
+        app:strokeWidth="2dp"
+        />
+
+</LinearLayout>

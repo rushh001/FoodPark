@@ -1,0 +1,236 @@
+<resources>
+    <string name="app_name">Food Park</string>
+    <string name="default_web_client_id">168287172800-mm93g0vrpsjkvjgout5vlakkod68inf0.apps.googleusercontent.com</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+<string-array name="dishes">
+    <item>Plain Naan/Kulcha/Roti</item>
+    <item>Butter Naan/Kulcha/Roti</item>
+    <item>Phulka</item>
+    <item>Phulka Butter</item>
+    <item>Chapathi - 2 nos - ₹35</item>
+    <item>Vee Fried Rice/Noodles - 250 gms - ₹55</item>
+    <item>Paneer Fried rice/Noodles - 250 gms - ₹65</item>
+    <item>Szechwan Veg Noodles/Rice - 250 gms - ₹65</item>
+    <item>Mushroom Fried Rice/Noodles - 250 gms - ₹65</item>
+    <item>Gobi 65/Aloo 65</item>
+    <item>Paneer 65/Mushroom 65</item>
+    <item>Veg Manchurian</item>
+    <item>Gobi Manchurian</item>
+    <item>Paneer Manchurian</item>
+    <item>Chilly Gobi/Aloo Chilly</item>
+    <item>American Chopsy Veg</item>
+    <item>Veg Meals with curd</item>
+    <item>Curd</item>
+    <item>Veg Biryani/Spl. Fried Rice</item>
+    <item>Paneer plater</item>
+    <item>Kadai Veg</item>
+    <item>Paneer Chat pata</item>
+    <item>Paneer Butter Masala</item>
+    <item>Palak Paneer</item>
+    <item>Paneer Peas Masala</item>
+    <item>Mixed Veg Curry</item>
+    <item>Gobi Masala</item>
+    <item>Aloo Gobi Masala</item>
+    <item>Aloo Capsicum Masala</item>
+    <item>Aloo Muttar/Aloo jeera.</item>
+    <item>Samosa Channa Chat</item>
+    <item>Kachori Chat</item>
+    <item>Bread Channa Chat</item>
+    <item>Baby Corn 65</item>
+</string-array>
+
+
+
+    <string-array name="quantities">
+        <item>1 no</item>
+        <item>1 no</item>
+        <item>2 no</item>
+        <item>2 no</item>
+        <item>2 nos</item>
+        <item>250 gms</item>
+        <item>250 gms</item>
+        <item>250 gms</item>
+        <item>250 gms</item>
+        <item>180 gms</item>
+        <item>180 gms</item>
+        <item>250 gms</item>
+        <item>250 gms</item>
+        <item>1 portion</item>
+        <item>250 gms</item>
+        <item>1 portion</item>
+        <item>1 portion</item>
+        <item>100 ml</item>
+        <item>250 gms</item>
+        <item>180 gms</item>
+        <item>180 gms</item>
+        <item>180 gms</item>
+        <item>180 gms</item>
+        <item>180 gms</item>
+        <item>180 gms</item>
+        <item>180 gms</item>
+        <item>180 gms</item>
+        <item>180 gms</item>
+        <item>180 gms</item>
+        <item>180 gms</item>
+        <item>150 gms</item>
+        <item>150 gms</item>
+        <item>180 gms</item>
+        <item>150 gms</item>
+    </string-array>
+
+
+    <string-array name="prices">
+        <item>17</item>
+        <item>23</item>
+        <item>16</item>
+        <item>18</item>
+        <item>35</item>
+        <item>55</item>
+        <item>65</item>
+        <item>65</item>
+        <item>65</item>
+        <item>43</item>
+        <item>60</item>
+        <item>67</item>
+        <item>67</item>
+        <item>72</item>
+        <item>60</item>
+        <item>85</item>
+        <item>55</item>
+        <item>12</item>
+        <item>58</item>
+        <item>65</item>
+        <item>60</item>
+        <item>72</item>
+        <item>65</item>
+        <item>60</item>
+        <item>55</item>
+        <item>55</item>
+        <item>55</item>
+        <item>60</item>
+        <item>60</item>
+        <item>50</item>
+        <item>28</item>
+        <item>28</item>
+        <item>28</item>
+        <item>43</item>
+    </string-array>
+
+
+    <string-array name="protein">
+        <item>8.7</item>
+        <item>8</item>
+        <item>4</item>
+        <item>4</item>
+        <item>3</item>
+        <item>15</item>
+        <item>20</item>
+        <item>20</item>
+        <item>12</item>
+        <item>10</item>
+        <item>40</item>
+        <item>9</item>
+        <item>4</item>
+        <item>11</item>
+        <item>15</item>
+        <item>15</item>
+        <item>5</item>
+        <item>12.5</item>
+        <item>36</item>
+        <item>10</item>
+        <item>27</item>
+        <item>24</item>
+        <item>18</item>
+        <item>22</item>
+        <item>15</item>
+        <item>6</item>
+        <item>8</item>
+        <item>6</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>10</item>
+        <item>2</item>
+    </string-array>
+
+
+
+    <string-array name="carbohydrate">
+        <item>45</item>
+        <item>40</item>
+        <item>20</item>
+        <item>20</item>
+        <item>16</item>
+        <item>60</item>
+        <item>50</item>
+        <item>50</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+        <item>68</item>
+        <item>25</item>
+        <item>12</item>
+        <item>20</item>
+        <item>20</item>
+        <item>20</item>
+        <item>45</item>
+        <item>12</item>
+        <item>20</item>
+        <item>15</item>
+        <item>16</item>
+        <item>12</item>
+        <item>14</item>
+        <item>25</item>
+        <item>22</item>
+        <item>24</item>
+        <item>26</item>
+        <item>28</item>
+        <item>22</item>
+        <item>24</item>
+        <item>30</item>
+        <item>18</item>
+    </string-array>
+
+    <string-array name="fat">
+        <item>5</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>8</item>
+        <item>20</item>
+        <item>70</item>
+        <item>23</item>
+        <item>16</item>
+        <item>25</item>
+        <item>30</item>
+        <item>6</item>
+        <item>5</item>
+        <item>10</item>
+        <item>20</item>
+        <item>12</item>
+        <item>18</item>
+        <item>14</item>
+        <item>10</item>
+        <item>12</item>
+        <item>8</item>
+        <item>8</item>
+        <item>6</item>
+        <item>4</item>
+        <item>4</item>
+        <item>8</item>
+        <item>6</item>
+        <item>8</item>
+        <item>4</item>
+    </string-array>
+
+
+
+
+</resources>
