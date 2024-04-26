@@ -10,11 +10,11 @@
     <item>Butter Naan/Kulcha/Roti</item>
     <item>Phulka</item>
     <item>Phulka Butter</item>
-    <item>Chapathi - 2 nos - ₹35</item>
-    <item>Vee Fried Rice/Noodles - 250 gms - ₹55</item>
-    <item>Paneer Fried rice/Noodles - 250 gms - ₹65</item>
-    <item>Szechwan Veg Noodles/Rice - 250 gms - ₹65</item>
-    <item>Mushroom Fried Rice/Noodles - 250 gms - ₹65</item>
+    <item>Chapathi - 2 nos </item>
+    <item>Vee Fried Rice/Noodles </item>
+    <item>Paneer Fried rice/Noodles  </item>
+    <item>Szechwan Veg Noodles/Rice  </item>
+    <item>Mushroom Fried Rice/Noodles </item>
     <item>Gobi 65/Aloo 65</item>
     <item>Paneer 65/Mushroom 65</item>
     <item>Veg Manchurian</item>
@@ -121,113 +121,116 @@
 
 
     <string-array name="protein">
-        <item>8.7</item>
-        <item>8</item>
-        <item>4</item>
-        <item>4</item>
-        <item>3</item>
-        <item>15</item>
-        <item>20</item>
-        <item>20</item>
-        <item>12</item>
-        <item>10</item>
-        <item>40</item>
-        <item>9</item>
-        <item>4</item>
-        <item>11</item>
-        <item>15</item>
-        <item>15</item>
-        <item>5</item>
-        <item>12.5</item>
-        <item>36</item>
-        <item>10</item>
-        <item>27</item>
-        <item>24</item>
-        <item>18</item>
-        <item>22</item>
-        <item>15</item>
-        <item>6</item>
-        <item>8</item>
-        <item>6</item>
-        <item>6</item>
-        <item>7</item>
-        <item>8</item>
-        <item>10</item>
-        <item>2</item>
+        <item>9g</item>
+        <item>8g</item>
+        <item>4g</item>
+        <item>4g</item>
+        <item>3g</item>
+        <item>15g</item>
+        <item>20g</item>
+        <item>20g</item>
+        <item>12g</item>
+        <item>10g</item>
+        <item>40g</item>
+        <item>9g</item>
+        <item>4g</item>
+        <item>11g</item>
+        <item>15g</item>
+        <item>15g</item>
+        <item>5g</item>
+        <item>12.5g</item>
+        <item>36g</item>
+        <item>10g</item>
+        <item>27g</item>
+        <item>24g</item>
+        <item>18g</item>
+        <item>22g</item>
+        <item>15g</item>
+        <item>6g</item>
+        <item>8g</item>
+        <item>6g</item>
+        <item>6g</item>
+        <item>7g</item>
+        <item>8g</item>
+        <item>10g</item>
+        <item>2g</item>
+        <item>2g</item>
     </string-array>
 
 
 
     <string-array name="carbohydrate">
-        <item>45</item>
-        <item>40</item>
-        <item>20</item>
-        <item>20</item>
-        <item>16</item>
-        <item>60</item>
-        <item>50</item>
-        <item>50</item>
-        <item>20</item>
-        <item>25</item>
-        <item>30</item>
-        <item>68</item>
-        <item>25</item>
-        <item>12</item>
-        <item>20</item>
-        <item>20</item>
-        <item>20</item>
-        <item>45</item>
-        <item>12</item>
-        <item>20</item>
-        <item>15</item>
-        <item>16</item>
-        <item>12</item>
-        <item>14</item>
-        <item>25</item>
-        <item>22</item>
-        <item>24</item>
-        <item>26</item>
-        <item>28</item>
-        <item>22</item>
-        <item>24</item>
-        <item>30</item>
-        <item>18</item>
+        <item>45g</item>
+        <item>40g</item>
+        <item>20g</item>
+        <item>20g</item>
+        <item>16g</item>
+        <item>60g</item>
+        <item>50g</item>
+        <item>50g</item>
+        <item>20g</item>
+        <item>25g</item>
+        <item>30g</item>
+        <item>68g</item>
+        <item>25g</item>
+        <item>12g</item>
+        <item>20g</item>
+        <item>20g</item>
+        <item>20g</item>
+        <item>45g</item>
+        <item>12g</item>
+        <item>20g</item>
+        <item>15g</item>
+        <item>16g</item>
+        <item>12g</item>
+        <item>14g</item>
+        <item>25g</item>
+        <item>22g</item>
+        <item>24g</item>
+        <item>26g</item>
+        <item>28g</item>
+        <item>22g</item>
+        <item>24g</item>
+        <item>30g</item>
+        <item>18g</item>
+        <item>18g</item>
     </string-array>
 
     <string-array name="fat">
-        <item>5</item>
-        <item>4</item>
-        <item>4</item>
-        <item>4</item>
-        <item>4</item>
-        <item>10</item>
-        <item>15</item>
-        <item>20</item>
-        <item>8</item>
-        <item>20</item>
-        <item>70</item>
-        <item>23</item>
-        <item>16</item>
-        <item>25</item>
-        <item>30</item>
-        <item>6</item>
-        <item>5</item>
-        <item>10</item>
-        <item>20</item>
-        <item>12</item>
-        <item>18</item>
-        <item>14</item>
-        <item>10</item>
-        <item>12</item>
-        <item>8</item>
-        <item>8</item>
-        <item>6</item>
-        <item>4</item>
-        <item>4</item>
-        <item>8</item>
-        <item>6</item>
-        <item>8</item>
-        <item>4</item>
+        <item>5g</item>
+        <item>4g</item>
+        <item>4g</item>
+        <item>4g</item>
+        <item>4g</item>
+        <item>10g</item>
+        <item>15g</item>
+        <item>20g</item>
+        <item>8g</item>
+        <item>20g</item>
+        <item>70g</item>
+        <item>23g</item>
+        <item>16g</item>
+        <item>25g</item>
+        <item>30g</item>
+        <item>6g</item>
+        <item>5g</item>
+        <item>10g</item>
+        <item>20g</item>
+        <item>12g</item>
+        <item>18g</item>
+        <item>14g</item>
+        <item>10g</item>
+        <item>12g</item>
+        <item>8g</item>
+        <item>8g</item>
+        <item>6g</item>
+        <item>4g</item>
+        <item>4g</item>
+        <item>8g</item>
+        <item>6g</item>
+        <item>8g</item>
+        <item>4g</item>
+        <item>4g</item>
     </string-array>
 
 

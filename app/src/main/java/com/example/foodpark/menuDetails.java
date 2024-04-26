@@ -5,15 +5,15 @@ public class menuDetails {
     int image;
 
     public menuDetails(String recipeName, String recipeProtein, String recipeCarb,
-                       String recipeFat, String recipePrice, String recipeRating,
-                       int image) {
+                       String recipeFat, String recipePrice
+                      ) {
         this.recipeName = recipeName;
         this.recipeProtein = recipeProtein;
         this.recipeCarb = recipeCarb;
         this.recipeFat = recipeFat;
         this.recipePrice = recipePrice;
-        this.recipeRating = recipeRating;
-        this.image = image;
+       // this.recipeRating = recipeRating;
+        //this.image = image;
     }
 
     public String getRecipeName() {
@@ -36,11 +36,11 @@ public class menuDetails {
         return recipePrice;
     }
 
-    public String getRecipeRating() {
-        return recipeRating;
-    }
+//    public String getRecipeRating() {
+//        return recipeRating;
+//    }
 
-    public int getImage() {
-        return image;
-    }
+//    public int getImage() {
+//        return image;
+//    }
 }
