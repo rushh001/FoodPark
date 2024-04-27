@@ -1,17 +1,18 @@
 package com.example.foodpark;
 
 public class menuDetails {
-    String recipeName,recipeProtein,recipeCarb,recipeFat,recipePrice,recipeRating;
+    String recipeName,recipeProtein,recipeCarb,recipeFat,recipePrice,recipeIds;
     int image;
 
     public menuDetails(String recipeName, String recipeProtein, String recipeCarb,
-                       String recipeFat, String recipePrice
+                       String recipeFat, String recipePrice,String recipeIds
                       ) {
         this.recipeName = recipeName;
         this.recipeProtein = recipeProtein;
         this.recipeCarb = recipeCarb;
         this.recipeFat = recipeFat;
         this.recipePrice = recipePrice;
+        this.recipeIds = recipeIds;
        // this.recipeRating = recipeRating;
         //this.image = image;
     }
@@ -36,7 +37,9 @@ public class menuDetails {
         return recipePrice;
     }
 
-//    public String getRecipeRating() {
+    public String getRecipeIds() {return recipeIds;}
+
+    //    public String getRecipeRating() {
 //        return recipeRating;
 //    }
 

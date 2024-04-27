@@ -16,6 +16,7 @@ public class view_pager_adapter extends FragmentStateAdapter {
      switch(position)
      {
             case 0:
+
              return new HistoryFragment();
             case 1:
              return new MenuFragment();
