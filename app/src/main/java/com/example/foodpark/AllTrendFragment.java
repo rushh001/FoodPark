@@ -6,7 +6,6 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
-import androidx.recyclerview.widget.RecyclerView;
 import androidx.room.Room;
 
 import android.view.LayoutInflater;
@@ -14,30 +13,26 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Toast;
 
-import com.example.foodpark.databinding.FragmentBasketBinding;
-import com.example.foodpark.databinding.FragmentMenuBinding;
+import com.example.foodpark.databinding.FragmentAllTrendBinding;
+import com.example.foodpark.databinding.FragmentTrendingBinding;
 
 import java.util.ArrayList;
-import java.util.List;
 
-public class MenuFragment extends Fragment implements buttonClickListner {
-    FragmentMenuBinding binding;
+
+public class AllTrendFragment extends Fragment implements buttonClickListner {
+    FragmentAllTrendBinding binding;
     ArrayList<menuDetails> menu_details = new ArrayList<>();
     adapterMenu adapter;
-  //  List<Items> items;
-
-
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        binding = FragmentMenuBinding.inflate(inflater, container, false);
+        binding = FragmentAllTrendBinding.inflate(inflater, container, false);
         return binding.getRoot();
     }
 
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
-        getFragmentManager().beginTransaction().detach(MenuFragment.this).attach(MenuFragment.this).commit();
         setUpMenu();
         //menu_details=new ArrayList<>();
         adapter = new adapterMenu(menu_details, this);
@@ -47,8 +42,8 @@ public class MenuFragment extends Fragment implements buttonClickListner {
         adapter.notifyDataSetChanged();
 
 
-    }
 
+    }
     private void setUpMenu() {
         String dishes_names[] = getResources().getStringArray(R.array.dishes);
         String protein_gram[] = getResources().getStringArray(R.array.protein);
@@ -63,6 +58,7 @@ public class MenuFragment extends Fragment implements buttonClickListner {
 
         }
     }
+
 
     @Override
     public void onButtonClick(int position) {
@@ -108,5 +104,6 @@ public class MenuFragment extends Fragment implements buttonClickListner {
         else {
             Toast.makeText(getActivity(), "Already liked", Toast.LENGTH_SHORT).show();
         }
+
     }
 }

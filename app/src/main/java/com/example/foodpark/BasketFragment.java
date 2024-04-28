@@ -61,4 +61,9 @@ public class BasketFragment extends Fragment implements buttonClickListner {
     public void onButtonClick(int position) {
         Toast.makeText(getActivity(),"Removed",Toast.LENGTH_SHORT).show();
     }
+
+    @Override
+    public void onLikeClick(int position) {
+
+    }
 }

@@ -5,33 +5,32 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentActivity;
 import androidx.viewpager2.adapter.FragmentStateAdapter;
 
-public class view_pager_adapter extends FragmentStateAdapter {
-    public view_pager_adapter(@NonNull FragmentActivity fragmentActivity) {
+public class view_pager_adapter_trend extends FragmentStateAdapter {
+    public view_pager_adapter_trend(@NonNull FragmentActivity fragmentActivity) {
         super(fragmentActivity);
     }
 
     @NonNull
     @Override
     public Fragment createFragment(int position) {
-     switch(position)
-     {
-            case 3:
-             return new HistoryFragment();
+        switch(position)
+        {
+
             case 0:
-             return new MenuFragment();
+                return new AllTrendFragment();
             case 1:
-             return new BasketFragment();
+                return new SouthTrendFragment();
             case 2:
-             return new FavouriteFragment();
-             default:
-             return new MenuFragment();
+                return new NorthTrendFragment();
+            default:
+                return new AllTrendFragment();
 
 
-     }
+        }
     }
 
     @Override
     public int getItemCount() {
-        return 4;
+        return 3;
     }
 }

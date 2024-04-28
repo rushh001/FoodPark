@@ -24,7 +24,7 @@ public class Navigation_bar extends AppCompatActivity {
         bottomNavigation.show(2,true);
         bottomNavigation.add(new MeowBottomNavigation.Model(1,R.drawable.icon_name_profile__style_false__size_64px));
         bottomNavigation.add(new MeowBottomNavigation.Model(2, R.drawable.baseline_home_24));
-        bottomNavigation.add(new MeowBottomNavigation.Model(3, R.drawable.baseline_shopping_basket_24));
+        bottomNavigation.add(new MeowBottomNavigation.Model(3, R.drawable.baseline_auto_graph_24));
 
         bottomNavigation.setOnClickMenuListener(new Function1<MeowBottomNavigation.Model, Unit>() {
             @Override

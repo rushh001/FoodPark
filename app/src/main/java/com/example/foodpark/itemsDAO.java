@@ -20,5 +20,8 @@ public interface itemsDAO {
 
         @Query("DELETE FROM Items WHERE pid = :id")
         void deleteById(int id);
+
+        @Query("SELECT * FROM Items WHERE dishname LIKE :first LIMIT 1")
+        Items findByName(String first);
     }
 

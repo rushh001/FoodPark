@@ -22,13 +22,17 @@ public class HomeFragment extends Fragment {
     FragmentHomeBinding binding;
     TabLayout tabLayout;
     ViewPager2 viewPager2;
+    adapterBasket adapterBasket;
+    adapterMenu adapterMenu;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         binding = FragmentHomeBinding.inflate(inflater, container, false);
         getFragmentManager().beginTransaction().detach(HomeFragment.this).attach(HomeFragment.this).commit();
+
         return binding.getRoot();
+
     }
 
     @Override
@@ -41,6 +45,8 @@ public class HomeFragment extends Fragment {
         viewPager2 = binding.viewPager;
         view_pager_adapter viewPagerAdapter = new view_pager_adapter(getActivity());
         viewPager2.setAdapter(viewPagerAdapter);
+
+
 
         // Link TabLayout with ViewPager2
 //        new TabLayoutMediator(tabLayout, viewPager2,
@@ -59,7 +65,7 @@ public class HomeFragment extends Fragment {
 
             @Override
             public void onTabUnselected(TabLayout.Tab tab) {
-                viewPager2.setCurrentItem(tab.getPosition(), true);
+                //viewPager2.refreshDrawableState(tab.getPosition(), true);
             }
 
             @Override
@@ -75,10 +81,11 @@ public class HomeFragment extends Fragment {
                 super.onPageSelected(position);
                 tabLayout.setScrollPosition(position, 0, true);
                 getFragmentManager().beginTransaction().detach(HomeFragment.this).attach(HomeFragment.this).commit();
-
+                //
 
             }
         });
-        viewPager2.setCurrentItem(1);
+
     }
+
 }
