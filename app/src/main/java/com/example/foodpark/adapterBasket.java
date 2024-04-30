@@ -19,12 +19,14 @@ import java.util.List;
 
 public class adapterBasket  extends RecyclerView.Adapter<adapterBasket.MyViewHolder> {
 
-     List<Items> items;
+    List<Items> items;
     buttonClickListner buttonClickListner;
+     TextView totalprice;
 
-    public adapterBasket(List<Items> items,buttonClickListner buttonClickListne) {
+    public adapterBasket(List<Items> items,buttonClickListner buttonClickListne,TextView tatalprice) {
      this.items= items;
         this.buttonClickListner=buttonClickListner;
+        this.totalprice= totalprice;
     }
 
     @NonNull
@@ -53,10 +55,22 @@ public class adapterBasket  extends RecyclerView.Adapter<adapterBasket.MyViewHol
                 itemsDAO.deleteById(items.get(position).getPid());
                 items.remove(position);
                 notifyItemRemoved(position);
-               // updateprice();
+                //updateprice();
             }
         });
     }
+
+//    private void updateprice() {
+//
+//        int sum=0;
+//            for (int i=0;i<items.size();i++)
+//            {
+//                sum=sum+items.get(i).getDishprice();
+//            }
+//
+//            totalprice.setText("Total: "+sum);
+//        }
+
 
     @Override
     public int getItemCount() {
@@ -82,6 +96,17 @@ public class adapterBasket  extends RecyclerView.Adapter<adapterBasket.MyViewHol
 
 
         }
+
+//        public void updateprice()
+//        {
+//            int sum=0;
+//            for (int i=0;i<items.size();i++)
+//            {
+//                sum=sum+items.get(i).getDishprice();
+//            }
+//
+//            totalprice.setText("Total: "+sum);
+//        }
 
     }
 }

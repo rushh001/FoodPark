@@ -245,7 +245,7 @@
                     android:maxLines="1"
                     app:cornerRadius="15dp"
                     android:padding="8dp"
-                    android:backgroundTint="#3F51B5"
+                    android:backgroundTint="#FF07266C"
 
                     android:layout_marginLeft="20dp"
 
@@ -264,7 +264,7 @@
                     android:maxLines="1"
                     android:padding="7dp"
                     app:cornerRadius="15dp"
-                    android:backgroundTint="#3F51B5"
+                    android:backgroundTint="#FF07266C"
                     android:layout_marginHorizontal="10dp"
 
 

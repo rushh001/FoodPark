@@ -47,12 +47,12 @@ public class SouthTrendFragment extends Fragment implements buttonClickListner{
 
     }
     private void setUpMenu() {
-        String dishes_names[] = getResources().getStringArray(R.array.dishes);
-        String protein_gram[] = getResources().getStringArray(R.array.protein);
-        String carb_gram[] = getResources().getStringArray(R.array.carbohydrate);
-        String fat_gram[] = getResources().getStringArray(R.array.fat);
-        String prices_quantity[] = getResources().getStringArray(R.array.prices);
-        String dish_ids[] = getResources().getStringArray(R.array.ids);
+        String dishes_names[] = getResources().getStringArray(R.array.southtrenddish);
+        String protein_gram[] = getResources().getStringArray(R.array.trendprotein);
+        String carb_gram[] = getResources().getStringArray(R.array.trendcarb);
+        String fat_gram[] = getResources().getStringArray(R.array.trendfat);
+        String prices_quantity[] = getResources().getStringArray(R.array.trendprices);
+        String dish_ids[] = getResources().getStringArray(R.array.southtrendids);
 
         for (int i = 0; i < dishes_names.length; i++) {
             menu_details.add(new menuDetails(dishes_names[i], protein_gram[i], carb_gram[i],

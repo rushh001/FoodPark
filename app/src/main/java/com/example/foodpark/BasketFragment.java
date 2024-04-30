@@ -12,6 +12,7 @@ import androidx.room.Room;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.foodpark.databinding.FragmentBasketBinding;
@@ -25,6 +26,7 @@ public class BasketFragment extends Fragment implements buttonClickListner {
     FragmentBasketBinding binding;
     //ArrayList<basketDetails> basket_Details= new ArrayList<>();
     adapterBasket adapter;
+
 
 
     @Override
@@ -49,12 +51,18 @@ public class BasketFragment extends Fragment implements buttonClickListner {
                 AppDatabase.class, "basket_db").allowMainThreadQueries().build();
         itemsDAO itemsDAO=db.iteamDAO();
         List<Items> items=itemsDAO.getallitems();
-        adapter=new adapterBasket(items,this);
+        adapter=new adapterBasket(items,this,binding.totalprice);
         binding.menuRecyclerview.setAdapter(adapter);
         LinearLayoutManager layoutManager=new LinearLayoutManager(getContext());
         binding.menuRecyclerview.setLayoutManager(layoutManager);
 
+        int sum=0;
+        for (int i=0;i<items.size();i++)
+        {
+            sum=sum+items.get(i).getDishprice();
+        }
 
+        binding.totalprice.setText("Total: "+sum);
     }
 
     @Override

@@ -43,6 +43,8 @@
     </string-array>
 
 
+
+
     <string-array name="quantities">
         <item>1 no</item>
         <item>1 no</item>
@@ -269,5 +271,106 @@
         <item>134</item>
     </string-array>
 
+
+    <string-array name="trenddish">
+        <item>Biryani</item>
+        <item>Butter Chicken</item>
+        <item>Naan</item>
+        <item>Palak Paneer</item>
+        <item>Biryani, Palak Paneer</item>
+        <item>Butter Chicken, Naan</item>
+
+    </string-array>
+
+
+    <string-array name="trendprices">
+        <item>95</item>
+        <item>90</item>
+        <item>23</item>
+        <item>60</item>
+        <item>155</item>
+        <item>103</item>
+    </string-array>
+
+    <string-array name="trendprotein">
+        <item>50</item>
+        <item>60</item>
+        <item>8</item>
+        <item>22</item>
+        <item>72</item>
+        <item>68</item>
+    </string-array>
+
+
+    <string-array name="trendcarb">
+        <item>20</item>
+        <item>15</item>
+        <item>40</item>
+        <item>14</item>
+        <item>34</item>
+        <item>55</item>
+    </string-array>
+
+
+    <string-array name="trendfat">
+        <item>30</item>
+        <item>25</item>
+        <item>4</item>
+        <item>12</item>
+        <item>42</item>
+        <item>29</item>
+    </string-array>
+
+    <string-array name="trendids">
+        <item>135</item>
+        <item>136</item>
+        <item>102</item>
+        <item>124</item>
+        <item>137</item>
+        <item>138</item>
+    </string-array>
+
+
+
+    <string-array name="southtrenddish">
+        <item>Masala Dosa</item>
+        <item>Chicken Butter Masala</item>
+        <item>Naan</item>
+        <item>Palak Paneer</item>
+        <item>Biryani, Palak Paneer</item>
+        <item>Butter Chicken, Naan</item>
+
+    </string-array>
+
+
+    <string-array name="southtrendids">
+        <item>140</item>
+        <item>141</item>
+        <item>102</item>
+        <item>124</item>
+        <item>137</item>
+        <item>138</item>
+    </string-array>
+
+
+    <string-array name="northtrenddish">
+        <item>Masala pav</item>
+        <item>Mughlai Chicken</item>
+        <item>Naan</item>
+        <item>Palak Paneer</item>
+        <item>Biryani, Palak Paneer</item>
+        <item>Butter Chicken, Naan</item>
+
+    </string-array>
+
+
+    <string-array name="northtrendids">
+        <item>139</item>
+        <item>142</item>
+        <item>102</item>
+        <item>124</item>
+        <item>137</item>
+        <item>138</item>
+    </string-array>
 
 </resources>
